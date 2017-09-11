@@ -1,0 +1,567 @@
+﻿<feed xmlns="http://www.w3.org/2005/Atom" xmlns:atlassian="http://streams.atlassian.com/syndication/general/1.0">
+  <id>https://jira.s1inc.com/activity?maxResults=10&amp;streams=user+IS+jcirceo&amp;os_authType=basic&amp;title=undefined</id>
+  <link href="https://jira.s1inc.com/activity?maxResults=10&amp;streams=user+IS+jcirceo&amp;os_authType=basic&amp;title=undefined" rel="self" />
+  <title type="text">undefined</title>
+  <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  <updated>2015-07-15T12:20:20.378Z</updated>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <id>urn:uuid:ffc3d736-9058-30a3-a7d9-9d9f25c22680</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> commented on       &lt;a href="https://jira.s1inc.com/browse/SEM-1069">SEM-1069 - Setup continues integration with bamboo and QA&lt;/a>
+    </title>
+    <content type="html">
+      &lt;blockquote>
+      &lt;p>&lt;a class="user-hover" href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=akobilinsky">Artem Kobilinsky&lt;/a>, FYI: Jim has also followed up on this and I expect we should have something soon.&lt;/p>   &lt;/blockquote>
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-15T12:02:59.097Z</published>
+    <updated>2015-07-15T12:02:59.097Z</updated>
+    <category term="comment" />
+    <link href="https://jira.s1inc.com/browse/SEM-1069?focusedCommentId=75997&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75997" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1069" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <thr:in-reply-to ref="urn:uuid:64ec55c1-dcd7-3020-88fe-452fe38dfe33" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:0740a2fc-6480-3a8a-9092-31e12e66ad72</id>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1069?focusedCommentId=75997&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75997" />
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:64ec55c1-dcd7-3020-88fe-452fe38dfe33</id>
+      <title type="text">SEM-1069</title>
+      <summary type="text">Setup continues integration with bamboo and QA</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1069" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <id>urn:uuid:d18846c8-8069-34a9-93fa-19683b54cbc4</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> commented on       &lt;a href="https://jira.s1inc.com/browse/SEM-1695">SEM-1695 - Add a &amp;quot;Previous versions&amp;quot; tab to the report manager&lt;/a>
+    </title>
+    <summary type="html">
+      &lt;blockquote>
+      &lt;p>&lt;a class="user-hover" href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=pportnoy">Philip Portnoy&lt;/a>, &lt;/p>
+
+      &lt;p>Possible script to show previous versions&lt;/p>
+
+      &lt;p>
+      &lt;/p>&lt;div class="syntaxplugin" id="syntaxplugin" style="border: 1.0px dashed rgb(187,187,187);overflow: auto;max-height: 30.0em;">
+      &lt;table border="0" cellpadding="0" cellspacing="0" style="font-size: 1.0em;line-height: 1.4em;font-weight: normal;font-style: normal;color: black;" width="100%">
+      &lt;tbody>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;margin-top: 10.0px;width: auto;padding: 0;">&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">declare&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> @ReportId &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">int&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> = 197&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&amp;nbsp;&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">SELECT&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	rv.Id, ReportId, rc.&lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Name&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> Category, cs.&lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Name&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Connection&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">,&lt;/span>&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>&lt;/div>   &lt;a class="comment-more" href="https://jira.s1inc.com/browse/SEM-1695?focusedCommentId=75996&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75996">Read more&lt;/a>&lt;/blockquote>
+    </summary>
+    <content type="html">
+      &lt;blockquote>
+      &lt;p>&lt;a class="user-hover" href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=pportnoy">Philip Portnoy&lt;/a>, &lt;/p>
+
+      &lt;p>Possible script to show previous versions&lt;/p>
+
+      &lt;p>
+      &lt;/p>&lt;div class="syntaxplugin" id="syntaxplugin" style="border: 1.0px dashed rgb(187,187,187);overflow: auto;max-height: 30.0em;">
+      &lt;table border="0" cellpadding="0" cellspacing="0" style="font-size: 1.0em;line-height: 1.4em;font-weight: normal;font-style: normal;color: black;" width="100%">
+      &lt;tbody>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;margin-top: 10.0px;width: auto;padding: 0;">&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">declare&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> @ReportId &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">int&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> = 197&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&amp;nbsp;&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">SELECT&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	rv.Id, ReportId, rc.&lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Name&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> Category, cs.&lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Name&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Connection&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">, rv.&lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Name&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">, rv.DisplayName, rv.Type, rv.[&lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">Order&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">], rv.EnabledForAllUsers, rv.CreatedAt, rv.UpdatedAt&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">FROM&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	s1inc_ReportVersions &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">AS&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> rv &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">inner&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;span style="color: gray;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">join&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	s1inc_ReportCategories rc &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">on&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> rc.Id = rv.ReportCategoryId &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">inner&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;span style="color: gray;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">join&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	s1inc_ConnectionStrings cs &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">on&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> rv.ConnectionStringId = cs.Id&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">where&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	rv.ReportId = @ReportId&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;width: auto;padding: 0;"&gt;&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">ORDER&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">BY&lt;/span>&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;"> &lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;tr id="syntaxplugin_code_and_gutter">
+      &lt;td style="line-height: 1.4em;padding: 0.0em;vertical-align: top;">
+      &lt;pre style="font-size: 1.0em;margin: 0 10.0px;margin-bottom: 10.0px;width: auto;padding: 0;">&lt;span style="color: black;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">	UpdatedAt &lt;/span>&lt;span style="color: rgb(0,102,153);font-weight: bold;font-family: Consolas , &amp;quot;Bitstream Vera Sans Mono&amp;quot; , &amp;quot;Courier New&amp;quot; , Courier , monospace;">DESC&lt;/span>&lt;/pre>
+      &lt;/td>
+      &lt;/tr>
+      &lt;/tbody>
+      &lt;/table>
+      &lt;/div>
+      &lt;p>   &lt;/p>&lt;/blockquote>
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-15T11:45:04.697Z</published>
+    <updated>2015-07-15T11:45:04.697Z</updated>
+    <category term="comment" />
+    <link href="https://jira.s1inc.com/browse/SEM-1695?focusedCommentId=75996&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75996" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1695" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <thr:in-reply-to ref="urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:bd3f21e3-a112-3ced-a682-35f9cf84636d</id>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695?focusedCommentId=75996&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75996" />
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54</id>
+      <title type="text">SEM-1695</title>
+      <summary type="text">Add a "Previous versions" tab to the report manager</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:1cecf148-5ec6-3a81-9afc-417c7a9d800a</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> changed the Assignee to '&lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=pportnoy" class="activity-item-user">Philip Portnoy&lt;/a>' on       &lt;a href="https://jira.s1inc.com/browse/SEM-1695">SEM-1695 - Add a &amp;quot;Previous versions&amp;quot; tab to the report manager&lt;/a>
+    </title>
+    <content type="html">
+      &lt;blockquote>
+      &lt;p>&lt;a class="user-hover" href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=pportnoy">Philip Portnoy&lt;/a>, Please review the report versions table and let us know if you want to remove it and replace it with change data tracking.&lt;/p>
+
+      &lt;p>FYI: low priority ticket&lt;/p>   &lt;/blockquote>
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-15T11:40:49.623Z</published>
+    <updated>2015-07-15T11:40:49.623Z</updated>
+    <link href="https://jira.s1inc.com/browse/SEM-1695?focusedCommentId=75995&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75995" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1695" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://jira.s1inc.com/rest/jira-activity-stream/1.0/actions/issue-vote/SEM-1695" rel="http://streams.atlassian.com/syndication/issue-vote" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54</id>
+      <title type="text">SEM-1695</title>
+      <summary type="text">Add a "Previous versions" tab to the report manager</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:f1070bcf-507b-372b-9104-7ad2e3122db5</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> updated the Description of       &lt;a href="https://jira.s1inc.com/browse/SEM-1695">SEM-1695 - Add a &amp;quot;Previous versions&amp;quot; tab to the report manager&lt;/a>
+    </title>
+    <summary type="html">
+      &lt;div class="user-content">
+      &lt;p>Please create a &amp;quot;Previous versions&amp;quot; tab next to the &amp;quot;Users&amp;quot; and &amp;quot;Xml Editor&amp;quot; tabs on the Report Manager page for each report. emsysqa.s1inc.com/ReportManager&lt;/p>
+
+      &lt;p>When the user clicks on the tab they will see a list of all previous versions with the&lt;/p> &lt;a class="content-more" href="https://jira.s1inc.com/browse/SEM-1695">Read more&lt;/a>&lt;/div>
+    </summary>
+    <content type="html">
+      &lt;div class="user-content">
+      &lt;p>Please create a &amp;quot;Previous versions&amp;quot; tab next to the &amp;quot;Users&amp;quot; and &amp;quot;Xml Editor&amp;quot; tabs on the Report Manager page for each report. emsysqa.s1inc.com/ReportManager&lt;/p>
+
+      &lt;p>When the user clicks on the tab they will see a list of all previous versions with the following columns&lt;/p>
+
+      &lt;p>Revert button, Connection, Category,&amp;nbsp;Name,&amp;nbsp;DisplayName,&amp;nbsp;Type,&amp;nbsp;Order,&amp;nbsp;EnabledForAllUsers,&amp;nbsp;CreatedAt,&amp;nbsp;UpdatedAt&lt;/p>
+
+      &lt;p>I've attached a screenshot you that shows some of what I'm looking for but it doesn't include all the fields so make sure you add them as well.&lt;br>
+      &lt;img border="0" src="https://jira.s1inc.com/secure/attachment/18331/18331_screenshot-1.png">&lt;/p> &lt;/div>
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-15T11:39:46.267Z</published>
+    <updated>2015-07-15T11:39:46.267Z</updated>
+    <link href="https://jira.s1inc.com/browse/SEM-1695" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1695" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://jira.s1inc.com/rest/jira-activity-stream/1.0/actions/issue-vote/SEM-1695" rel="http://streams.atlassian.com/syndication/issue-vote" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54</id>
+      <title type="text">SEM-1695</title>
+      <summary type="text">Add a "Previous versions" tab to the report manager</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:40c35263-f0c2-3e30-aa09-54ff0d780799</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> attached one file to       &lt;a href="https://jira.s1inc.com/browse/SEM-1695">SEM-1695 - Add a &amp;quot;Previous versions&amp;quot; tab to the report manager&lt;/a>
+    </title>
+    <content type="html">
+      &lt;ul class="attachments thumbnails">
+      &lt;li>&lt;a href="https://jira.s1inc.com/secure/attachment/18331/screenshot-1.png">&lt;img alt="" height="29" src="https://jira.s1inc.com/secure/thumbnail/18331/_thumb_18331.png" width="200">&lt;/a>
+      &lt;/ul>
+
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-15T11:38:15.773Z</published>
+    <updated>2015-07-15T11:38:15.773Z</updated>
+    <link href="https://jira.s1inc.com/browse/SEM-1695" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1695" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://jira.s1inc.com/rest/jira-activity-stream/1.0/actions/issue-vote/SEM-1695" rel="http://streams.atlassian.com/syndication/issue-vote" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:29c00bd0-51fa-3bd8-81c0-bc32ecc239b0</id>
+      <title type="text">screenshot-1.png</title>
+      <link rel="alternate" href="https://jira.s1inc.com/secure/attachment/18331/screenshot-1.png" />
+      <activity:object-type>http://activitystrea.ms/schema/1.0/file</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54</id>
+      <title type="text">SEM-1695</title>
+      <summary type="text">Add a "Previous versions" tab to the report manager</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:c3914d00-354b-3839-af65-1ba28adb5194</id>
+    <title type="html">&lt;a href="https://bamboo.s1inc.com/browse/SEMS-EMSYS-1091">SEMS &amp;rsaquo; EmSys &amp;rsaquo; #1091&lt;/a> &amp;rsaquo; &lt;a href="https://bamboo.s1inc.com/browse/SEMS-EMSYS-JOB1-1091">Default Job&lt;/a> &lt;span class="stream-build-summary stream-build-success">was successful&lt;/span></title>
+    <content type="html">
+
+
+
+
+
+
+
+
+
+
+      Updated by &lt;span class="activity-item-user activity-item-author">Jeff Circeo &amp;lt;jcirceo@s1inc.com&amp;gt;&lt;/span>,
+      build took 1 minute,
+      &lt;span class="stream-build-status stream-tests-passed">633 tests passed&lt;/span>
+
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo &lt;jcirceo@s1inc.com></name>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://bamboo.s1inc.com/s/en_US/5866/1/5.3.23/_/download/resources/com.atlassian.streams:streamsWebResources/images/bamboo-logo-16.png" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://bamboo.s1inc.com/s/en_US/5866/1/5.3.23/_/download/resources/com.atlassian.streams:streamsWebResources/images/bamboo-logo-48.png" media:height="48" media:width="48" />
+      <usr:username>Jeff Circeo &lt;jcirceo@s1inc.com></usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-14T21:31:52.954Z</published>
+    <updated>2015-07-14T21:31:52.954Z</updated>
+    <category term="build.successful" />
+    <link href="https://bamboo.s1inc.com/browse/SEMS-EMSYS-JOB1-1091" rel="alternate" />
+    <link href="https://bamboo.s1inc.com/images/iconsv3/plan_successful_16.png" rel="http://streams.atlassian.com/syndication/icon" title="Successful Build" />
+    <link href="https://bamboo.s1inc.com/plugins/servlet/streamscomments/builds/SEMS-EMSYS-JOB1-1091" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://bamboo.s1inc.com/rest/api/latest/queue/SEMS-EMSYS" rel="http://streams.atlassian.com/syndication/build-trigger" />
+    <generator uri="https://bamboo.s1inc.com" />
+    <atlassian:application>com.atlassian.bamboo</atlassian:application>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/bamboo/pass</activity:verb>
+    <activity:object>
+      <id>urn:uuid:c3914d00-354b-3839-af65-1ba28adb5194</id>
+      <title type="text">Default Job</title>
+      <link rel="alternate" href="https://bamboo.s1inc.com/browse/SEMS-EMSYS-JOB1-1091" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/job</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:c3914d00-354b-3839-af65-1ba28adb5194</id>
+      <title type="text">SEMS &amp;rsaquo; EmSys &amp;rsaquo; #1091</title>
+      <link rel="alternate" href="https://bamboo.s1inc.com/browse/SEMS-EMSYS-1091" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/build</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+    <source>
+      <id>https://bamboo.s1inc.com/activity?use-accept-lang=true&amp;streams=user+IS+jcirceo&amp;local=true&amp;maxResults=10&amp;os_authType=basic</id>
+      <link href="https://bamboo.s1inc.com/activity?use-accept-lang=true&amp;streams=user+IS+jcirceo&amp;local=true&amp;maxResults=10&amp;os_authType=basic" rel="self" />
+      <title type="text">Activity Stream for all projects</title>
+      <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+      <subtitle type="text">Activity for Bamboo</subtitle>
+      <updated>2015-07-14T21:31:52.954Z</updated>
+    </source>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:c4e91a18-9ac6-3ad4-b3f9-f671150d4e93</id>
+    <title type="html">&lt;a href="https://bamboo.s1inc.com/browse/SEMS-EMSYS0-1">SEMS &amp;rsaquo; EmSys &amp;rsaquo; &lt;span class="icon icon-branch"/> master &amp;rsaquo; #1&lt;/a> &amp;rsaquo; &lt;a href="https://bamboo.s1inc.com/browse/SEMS-EMSYS0-JOB1-1">Default Job&lt;/a> &lt;span class="stream-build-summary stream-build-success">was successful&lt;/span></title>
+    <content type="html">
+
+
+
+
+
+
+
+
+
+
+      Updated by &lt;span class="activity-item-user activity-item-author">Jeff Circeo &amp;lt;jcirceo@s1inc.com&amp;gt;&lt;/span>,
+      build took 1 minute,
+      &lt;span class="stream-build-status stream-tests-passed">633 tests passed&lt;/span>
+
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo &lt;jcirceo@s1inc.com></name>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://bamboo.s1inc.com/s/en_US/5866/1/5.3.23/_/download/resources/com.atlassian.streams:streamsWebResources/images/bamboo-logo-16.png" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://bamboo.s1inc.com/s/en_US/5866/1/5.3.23/_/download/resources/com.atlassian.streams:streamsWebResources/images/bamboo-logo-48.png" media:height="48" media:width="48" />
+      <usr:username>Jeff Circeo &lt;jcirceo@s1inc.com></usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-14T21:29:10.014Z</published>
+    <updated>2015-07-14T21:29:10.014Z</updated>
+    <category term="build.successful" />
+    <link href="https://bamboo.s1inc.com/browse/SEMS-EMSYS0-JOB1-1" rel="alternate" />
+    <link href="https://bamboo.s1inc.com/images/iconsv3/plan_successful_16.png" rel="http://streams.atlassian.com/syndication/icon" title="Successful Build" />
+    <link href="https://bamboo.s1inc.com/plugins/servlet/streamscomments/builds/SEMS-EMSYS0-JOB1-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://bamboo.s1inc.com/rest/api/latest/queue/SEMS-EMSYS0" rel="http://streams.atlassian.com/syndication/build-trigger" />
+    <generator uri="https://bamboo.s1inc.com" />
+    <atlassian:application>com.atlassian.bamboo</atlassian:application>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/bamboo/pass</activity:verb>
+    <activity:object>
+      <id>urn:uuid:c4e91a18-9ac6-3ad4-b3f9-f671150d4e93</id>
+      <title type="text">Default Job</title>
+      <link rel="alternate" href="https://bamboo.s1inc.com/browse/SEMS-EMSYS0-JOB1-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/job</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:c4e91a18-9ac6-3ad4-b3f9-f671150d4e93</id>
+      <title type="text">SEMS &amp;rsaquo; EmSys &amp;rsaquo; &lt;span class="icon icon-branch"/> master &amp;rsaquo; #1</title>
+      <link rel="alternate" href="https://bamboo.s1inc.com/browse/SEMS-EMSYS0-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/build</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+    <source>
+      <id>https://bamboo.s1inc.com/activity?use-accept-lang=true&amp;streams=user+IS+jcirceo&amp;local=true&amp;maxResults=10&amp;os_authType=basic</id>
+      <link href="https://bamboo.s1inc.com/activity?use-accept-lang=true&amp;streams=user+IS+jcirceo&amp;local=true&amp;maxResults=10&amp;os_authType=basic" rel="self" />
+      <title type="text">Activity Stream for all projects</title>
+      <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+      <subtitle type="text">Activity for Bamboo</subtitle>
+      <updated>2015-07-14T21:31:52.954Z</updated>
+    </source>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:39a27d0d-ef3e-3150-be72-9f929ddc58cb</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> updated the Description of       &lt;a href="https://jira.s1inc.com/browse/SEM-1695">SEM-1695 - Add a &amp;quot;Previous versions&amp;quot; tab to the report manager&lt;/a>
+    </title>
+    <summary type="html">
+      &lt;div class="user-content">
+      &lt;p>Please create a &amp;quot;Previous versions&amp;quot; tab next to the &amp;quot;Users&amp;quot; and &amp;quot;Xml Editor&amp;quot; tabs on the Report Manager page for each report. emsysqa.s1inc.com/ReportManager&lt;/p>
+
+      &lt;p>When the user clicks on the tab they will see a list of all previous version report names&lt;/p> &lt;a class="content-more" href="https://jira.s1inc.com/browse/SEM-1695">Read more&lt;/a>&lt;/div>
+    </summary>
+    <content type="html">
+      &lt;div class="user-content">
+      &lt;p>Please create a &amp;quot;Previous versions&amp;quot; tab next to the &amp;quot;Users&amp;quot; and &amp;quot;Xml Editor&amp;quot; tabs on the Report Manager page for each report. emsysqa.s1inc.com/ReportManager&lt;/p>
+
+      &lt;p>When the user clicks on the tab they will see a list of all previous version report names that have been used on the site. The names will be bulleted with blue arrows (the same blue arrows on the Report Manager) and when the user clicks to open the arrow it will show the entire code from the previous version. &lt;/p>
+
+      &lt;p>On the right side of each report version name there should be a button called &amp;quot;Revert Report.&amp;quot; Clicking on that button should revert the website back to that version of the report. &lt;/p> &lt;/div>
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-14T20:47:08.810Z</published>
+    <updated>2015-07-14T20:47:08.810Z</updated>
+    <link href="https://jira.s1inc.com/browse/SEM-1695" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1695" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://jira.s1inc.com/rest/jira-activity-stream/1.0/actions/issue-vote/SEM-1695" rel="http://streams.atlassian.com/syndication/issue-vote" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54</id>
+      <title type="text">SEM-1695</title>
+      <summary type="text">Add a "Previous versions" tab to the report manager</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:c0eaa417-9afe-3130-938c-bb36a9757eee</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> changed the Summary of       &lt;a href="https://jira.s1inc.com/browse/SEM-1695">SEM-1695&lt;/a>
+      to 'Add a &amp;quot;Previous versions&amp;quot; tab to the report manager'
+    </title>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-14T20:45:29.307Z</published>
+    <updated>2015-07-14T20:45:29.307Z</updated>
+    <link href="https://jira.s1inc.com/browse/SEM-1695" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1695" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <link href="https://jira.s1inc.com/rest/jira-activity-stream/1.0/actions/issue-vote/SEM-1695" rel="http://streams.atlassian.com/syndication/issue-vote" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:34fe5018-82e6-3f25-84d3-acedb81a2a54</id>
+      <title type="text">SEM-1695</title>
+      <summary type="text">Add a "Previous versions" tab to the report manager</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1695" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <id>urn:uuid:64b7426b-cdfe-3462-90b8-d70952a2ab11</id>
+    <title type="html">
+      &lt;a href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo" class="activity-item-user activity-item-author">Jeff Circeo&lt;/a> commented on       &lt;a href="https://jira.s1inc.com/browse/SEM-1069">SEM-1069 - Setup continues integration with bamboo and QA&lt;/a>
+    </title>
+    <content type="html">
+      &lt;blockquote>
+      &lt;p>&lt;a class="user-hover" href="https://jira.s1inc.com/secure/ViewProfile.jspa?name=akobilinsky">Artem Kobilinsky&lt;/a>, I've also followed up with Charles, we should have something soon.&lt;/p>   &lt;/blockquote>
+    </content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Jeff Circeo</name>
+      <email>jcirceo@s1inc.com</email>
+      <uri>https://jira.s1inc.com/secure/ViewProfile.jspa?name=jcirceo</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.s1inc.com/secure/useravatar?ownerId=jcirceo&amp;avatarId=10404&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>jcirceo</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2015-07-14T19:09:49.503Z</published>
+    <updated>2015-07-14T19:09:49.503Z</updated>
+    <category term="comment" />
+    <link href="https://jira.s1inc.com/browse/SEM-1069?focusedCommentId=75992&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75992" rel="alternate" />
+    <link href="https://jira.s1inc.com/images/icons/issuetypes/improvement.png" rel="http://streams.atlassian.com/syndication/icon" title="Improvement" />
+    <link href="https://jira.s1inc.com/s/en_USpd0blu/64021/113/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="https://jira.s1inc.com/plugins/servlet/streamscomments/issues/SEM-1069" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <thr:in-reply-to ref="urn:uuid:64ec55c1-dcd7-3020-88fe-452fe38dfe33" />
+    <generator uri="https://jira.s1inc.com" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:42d9f714-4427-37b2-b29f-4e58e52dffcb</id>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1069?focusedCommentId=75992&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-75992" />
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:64ec55c1-dcd7-3020-88fe-452fe38dfe33</id>
+      <title type="text">SEM-1069</title>
+      <summary type="text">Setup continues integration with bamboo and QA</summary>
+      <link rel="alternate" href="https://jira.s1inc.com/browse/SEM-1069" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>-0400</atlassian:timezone-offset>
+  </entry>
+</feed>

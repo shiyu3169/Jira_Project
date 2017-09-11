@@ -1,0 +1,49 @@
+﻿div.treeGrid table, 
+div.treeGrid th {
+    border: solid 1px black;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+div.treeGrid th, 
+div.treeGrid td {
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: solid 1px black;
+}
+
+div.treeGrid td.indent, 
+div.treeGrid td.icon, 
+div.treeGrid td.checkbox {
+    padding: 0;
+    width: 10px !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.treeGrid td.icon {
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 10px !important;
+    background: url('/Content/images/treeIcons.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+div.treeGrid td.expandedParent {
+    background-position: -16px -12px;
+}
+
+div.treeGrid td.collapsedParent {
+    background-position: 0px 6px;
+}
+
+/*div.treeGrid tr.alt td {
+            background: #ececec;
+        }
+        
+        div.treeGrid tr.even td {
+            background: #fff;
+        }*/

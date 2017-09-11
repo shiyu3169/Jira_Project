@@ -1,0 +1,24 @@
+c:\Projects\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe.config
+c:\Projects\JiraActivityChecker\JiraActivityChecker\bin\Debug\Feed.xml
+c:\Projects\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe
+c:\Projects\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.pdb
+c:\Projects\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.csprojResolveAssemblyReference.cache
+c:\Projects\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.exe
+c:\Projects\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.pdb
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe.config
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.exe
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.pdb
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\bin\Debug\Feed.xml
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.pdb
+C:\Users\swang\Desktop\JiraActivityChecker22\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.csprojResolveAssemblyReference.cache
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\bin\Debug\Feed.xml
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe.config
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.pdb
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.csprojResolveAssemblyReference.cache
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.exe
+C:\Users\swang\Dropbox\jira\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.pdb
+D:\Dropbox\Github\Web\Jira Project\JiraActivityChecker\JiraActivityChecker\bin\Debug\JiraActivityChecker.exe.config
+D:\Dropbox\Github\Web\Jira Project\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.exe
+D:\Dropbox\Github\Web\Jira Project\JiraActivityChecker\JiraActivityChecker\obj\Debug\JiraActivityChecker.pdb

@@ -1,0 +1,7 @@
+﻿span.customcheck { display:inline-block; width:13px; height:14px; margin-right:5px; background:transparent url('images/checkboxes.jpg') no-repeat 0 0; }
+span.customcheckfull { background-position:0 0; }
+span.customcheckfull:hover { background-position:-13px 0; }
+span.customchecknone { background-position:0 -14px; }
+span.customchecknone:hover { background-position:-13px -14px; }
+span.customcheckpartial { background-position:0 -28px; }
+span.customcheckpartial:hover { background-position:-13px -28px; }

@@ -1,0 +1,14 @@
+﻿<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#"><img src="../../Content/images/sourceOne.png" alt="Logo" height="50"/></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav nav-list" data-bind="foreach: router.navigationModel">
+                <li>
+                    <a data-bind="css: { active: isActive }, attr: { href: hash }, text: title" href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

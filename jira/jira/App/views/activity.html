@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity</title>
+</head>
+<body>
+    <hr />
+    <hr />
+    <div class="container">
+        <div class="splash" data-bind="visible: spinner">
+            <h3>Generating Chart</h3>
+            <i class="fa fa-cog fa-spin  fa-lg"></i>
+        </div>
+        <div class="panel panel-default" data-bind="visible: isLoading">
+            <h4 class="panel-heading">Activities By Day</h4>
+            <div class="panel-body">
+                <div data-bind="kendoChart: {
+    name: 'timeChart',
+    title: { text: 'Activities By Day', font: 'bold 24px Segoe UI', visible: false },
+    data: entriesByDay,
+    series: [{ field: 'Entries', type: 'area', line: { style: 'smooth' } }],
+    categoryAxis: { field: 'Day', labels: { rotation: 315 } },
+    chartArea: { width: 1100 },
+    tooltip: { visible: true, template: '#= series.field #: #= value #' }
+}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="splash" data-bind="visible: spinner">
+            <h3>Generating Chart
+            </h3>
+            <i class="fa fa-cog fa-spin  fa-lg"></i>
+        </div>
+        <div class="panel panel-default" data-bind="visible: isLoading">
+            <h4 class="panel-heading">Activities By User</h4>
+            <div class="panel-body">
+                <div data-bind="kendoChart: {
+    name: 'mainChart',
+    title: { text: 'Activities By User', font: 'bold 24px Segoe UI', visible: false },
+    data: entriesByPerson,
+    series: [{ field: 'Entries', color: '#BF3E39' }],
+    categoryAxis: { field: 'Author', labels: { rotation: 315 } },
+    chartArea: { width: 1100 },
+    tooltip: { visible: true, template: '#= series.field #: #= value #' }
+}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="splash" data-bind="visible: spinner">
+            <h3>Generating Chart
+            </h3>
+            <i class="fa fa-cog fa-spin  fa-lg"></i>
+        </div>
+        <div class="panel panel-default" data-bind="visible: isLoading">
+            <h4 class="panel-heading">Activities By Each User</h4>
+            <div class="panel-body">
+                <div data-bind="foreach: { data: people, as: 'person' }">
+                    <div class="col-lg-4" data-bind="kendoChart: {
+    name: person.Author,
+    dataSource: { data: person.EntryByDay },
+    title: { text: Author, font: 'bold' },
+    series: [{ field: 'Entries', categoryField: 'Day', type: 'line', style: 'smooth' }],
+    chartArea: { width: 350, height: 250 },
+    categoryAxis: { labels: { rotation: 315 } },
+    tooltip: { visible: true, template: '#= category #: #= series.field #: #= value #' }
+}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

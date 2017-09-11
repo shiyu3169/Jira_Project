@@ -1,0 +1,270 @@
+﻿/* Fonts */
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/roboto/Roboto-Bold-webfont.eot');
+    src: url('fonts/roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/Roboto-Bold-webfont.woff') format('woff'),
+         url('fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('fonts/roboto/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('fonts/roboto/Roboto-Light-webfont.eot');
+    src: url('fonts/roboto/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/Roboto-Light-webfont.woff') format('woff'),
+         url('fonts/roboto/Roboto-Light-webfont.ttf') format('truetype'),
+         url('fonts/roboto/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+	font: 12px/1.7em "RobotoRegular", Helvetica, Arial, sans-serif; 
+	color: #444;
+	background-color:#FFF;
+	/*background-image:url(new-images/menu-back.gif);*/
+	background-repeat: repeat-y; 
+}
+
+a {
+	color:#2f91ca
+}
+
+input, 
+textarea,
+button, 
+select {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-family: "RobotoRegular", Helvetica, Arial, sans-serif;
+}
+
+button {
+	font-family: "RobotoRegular", Helvetica, Arial, sans-serif;
+}	
+
+.btn {
+	font-size:16px;
+	font-weight:bold;
+	text-shadow:none;
+	padding: 7px 30px 6px 12px;
+}
+
+.btn-primary,
+.btn-primary:visited,
+.progress-bar.primary .bar,
+.activeState,
+.paging_full_numbers span.paginate_active,
+.widget-table .dataTables_wrapper .dataTables_paginate span span.ui-state-disabled,
+.pagination a.selected { 	
+	background: #d77a00;
+	background-image: url(new-images/button-back-yellow.gif);
+	background-position:right top;
+	background-repeat:repeat-x;
+	color: #FFF;
+	border:none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	filter: none;
+	-ms-filter:none;
+}
+
+.btn-primary:hover {
+	background: #df9433;
+	background-image: url(new-images/button-back-yellow-hover.gif);
+	background-position:right top;
+	background-repeat:repeat-x;
+	filter: none;
+	-ms-filter:none;
+}
+	
+.btn-primary:active { 	
+	background: #d77a00;
+	background-image: url(new-images/button-back-yellow.gif);
+	background-position:right top;
+	background-repeat:repeat-x;
+	color: #FFF;
+	border: none;
+	filter: none;
+	-ms-filter:none;
+}
+
+/* --- NEW LOGON SCREEN --- */
+body.logon {
+	background-image:url(new-images/login-back.jpg);
+	background-repeat:no-repeat;
+}
+.logon-header {
+	max-width: 1468px;
+	padding: 10px 12px 48px 12px;
+}
+.source-one-logon {
+	float:right;
+}
+.logon-container {
+	width: 910px;
+	margin-left:50px;
+}
+.logon-column-1,
+.logon-column-2,
+.logon-column-3 {
+	float:left;
+	position:relative;
+}
+.logon-column-1 {
+	margin-left:30px;
+	margin-top:20px;
+	width:244px;
+}
+.logon-column-2 {
+	margin-left:30px;
+	margin-top:20px;
+	width:236px;
+}
+.logon-column-3 {
+	margin-left:139px;
+	width:231px;
+}
+.brand-graphic-container {
+	height:275px;
+	margin-left:-30px;
+}
+.intro-text {
+	font-family: "RobotoLight", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	line-height: 1.3em;
+	color:#171717;
+	margin: 0 360px 0 30px;
+}
+.intro-text p {
+	margin:0;
+}
+.sustainability-text,
+.reliability-text,
+.energy-efficieny-text,
+.energy-economics-text, 
+.benchmarking-text {
+	padding-left:28px;
+	font-family: "RobotoRegular", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height: 1.15em;
+	color:#4a4a4a;
+}
+.sustainability-text {
+	background-image:url(new-images/sustainability-graphic.png);
+	background-repeat:no-repeat;
+}
+.reliability-text {
+	background-image:url(new-images/reliability-graphic.png);
+	background-repeat:no-repeat;
+}
+.energy-efficieny-text {
+	background-image:url(new-images/energy-efficiency-graphic.png);
+	background-repeat:no-repeat;
+}
+.energy-economics-text {
+	background-image:url(new-images/energy-economics-graphic.png);
+	background-repeat:no-repeat;
+}
+.benchmarking-text {
+	background-image:url(new-images/benchmarking-graphic.png);
+	background-repeat:no-repeat;
+}
+.sustainability-text h3,
+.reliability-text h3,
+.energy-efficieny-text h3,
+.energy-economics-text h3,
+.benchmarking-text h3 {
+	padding-top:15px;
+}
+
+.sustainability-text h3 {
+	font-size:14px;
+	margin-bottom: .5em;
+	color:#98a930;
+}
+.reliability-text h3 {
+	font-size:14px;
+	margin-bottom: .5em;
+	color:#cc5624;
+}
+.energy-efficieny-text h3 {
+	font-size:14px;
+	margin-bottom: .5em;
+	color:#6580a5;
+}
+.energy-economics-text h3 {
+	font-size:14px;
+	margin-bottom: .5em;
+	color:#d09d2a;
+}
+.benchmarking-text h3 {
+	font-size:14px;
+	margin-bottom: .5em;
+	color:#0582ad;
+}
+.logon-box,
+.contact-links-box {
+	background-image:url(new-images/-white-85-percent.png);
+	padding: 20px;
+	font-size:14px;
+	color: #4a4a4a;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, .15);
+	box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, .15);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.contact-links-box {
+	margin-top:20px;
+}
+.logon-box input[type="text"] {
+	margin-bottom:15px;
+	width:175px;
+}
+.logon-box input[type="password"] {
+	width:175px;
+}
+.logon-box p,
+.contact-links-box p {
+	margin-bottom:.5em;
+}
+#logon-learn-more {
+	width:100%;
+	text-align:right;
+	position:relative;
+}
+#logon-learn-more img {
+	position:absolute;
+	left:10px;
+	top:3px;
+}
+#logon-login {
+	position:relative;
+	padding-left:50px;
+	margin: 15px 0;
+}
+#logon-login img {
+	position:absolute;
+	left:10px;
+	top:4px;
+}
+.remember-me {
+	font-size:11px;
+	margin-top:5px;
+}

@@ -1,0 +1,200 @@
+﻿(function ($, window, document, undefined) {
+
+    var ns = $.namespace('SEMS');
+
+    ns.InvoiceGrid = (function () {
+        var defaults = {
+            url: '',
+            gridElement: '',
+            proxyURL: '',
+            showYear: '',
+            showMonth: '',
+            excelFileName: 'default.xlsx',
+            pdfFileName: 'default.pdf',
+            csvInputName: '',
+            invoiceUrl: '',
+            buildingId: 0,
+            customerId: 0,
+            year: 0,
+            month: 0,
+            utility: 0
+        };
+        var settings,
+            grid;
+
+        var exportCsvOnClick = function () {
+            var form = $('#filtersForm');
+            var input = $('<input>').attr({
+                type: 'hidden',
+                name: settings.csvInputName,
+                value: true
+            });
+
+            form.append(input).submit();
+            input.remove();
+
+            return false;
+        };
+        
+        var createGrid = function () {
+            var ds = (function () {
+                var hiddenColumns = [];//start1/26/215
+                hiddenColumns.push('BillPeriod');
+                hiddenColumns.push('BillYear');
+                var unhideColumns = [];
+                var groupColumns = [];//end1/26/215
+                return new kendo.data.DataSource({
+                    pageSize: 20,
+                    transport: {
+                        read: {
+                            type: 'GET',
+                            url: settings.invoiceUrl,
+                            data: function () {
+                                return {
+                                    param: {
+                                        BuildingId: settings.buildingId,
+                                        CustomerId: settings.customerId,
+                                        Utility: settings.utility,
+                                        Year: settings.year,
+                                        Month: settings.month
+                                    }
+                                };
+                            }
+                        }
+                    },
+                    schema: {
+                        data: "Data",
+                        total: "Total",
+                        errors: "Errors",
+                        model: {
+                            fields: {
+                                BillYear: { type: 'number' },
+                                BillPeriod: { type: 'number' },
+                                custName: { type: 'string' },
+                                totConsump: { type: 'number' },
+                                totDemand: { type: 'number' },
+                                energyType: { type: 'string' },
+                                Subtotal: { type: 'number' },
+                                tax: { type: 'number' },
+                                TotalAmt: { type: 'number' }
+                            }
+                        }
+                    },
+                    serverSorting: true,// start1/26/215
+                    serverFiltering: true,
+                    serverGrouping: true,
+<<<<<<< local
+                    serverPageable: true, //TESTING CODE
+                    serverPageSize: 20, //TESTING CODE
+=======
+                    serverPageable: true, // test code
+                    serverPageSize: 20,// test code
+>>>>>>> other
+                    serverAggregates: true,//end1/26/215
+                    type: "aspnetmvc-ajax",
+                    group: [{ //start1/26/215
+                        field: 'BillYear',
+                        dir: 'desc',
+                        aggregates: [{ field: 'totConsump', aggregate: 'sum' }, { field: 'totDemand', aggregate: 'sum' }, { field: 'totDemand', aggregate: 'sum' },
+                            { field: 'Subtotal', aggregate: 'sum' }, { field: 'tax', aggregate: 'sum' }, { field: 'TotalAmt', aggregate: 'sum' }]
+                    }, { //start1/26/215
+                        field: 'BillPeriod',
+                        dir: 'desc',
+                        aggregates: [{ field: 'totConsump', aggregate: 'sum' }, { field: 'totDemand', aggregate: 'sum' }, { field: 'totDemand', aggregate: 'sum' },
+                            { field: 'Subtotal', aggregate: 'sum' }, { field: 'tax', aggregate: 'sum' }, { field: 'TotalAmt', aggregate: 'sum' }]
+                    }],//end1/26/215
+                    error: function (e) {
+                        toastr.error("Error: " + e.errorThrown);
+                    }
+                });
+            })();
+
+            grid = $('#' + settings.gridElement).kendoGrid({
+                toolbar: [
+                    'excel',
+                    //'pdf',
+                    {
+                        name: "Csv",
+                        text: "Export To CSV",
+                        template: '<a class="k-button k-button-icontext" onclick="return window.SEMS.InvoiceGrid.exportCsvOnClick()"><span class="k-icon"></span>Export To CSV</a>'
+                    }
+                ],
+                pdf: {
+                    author: 'EMSys',
+                    creator: 'EMSys',
+                    fileName: settings.pdfFileName,
+                    proxyURL: settings.proxyURL
+                },
+                excel: {
+                    fileName: settings.excelFileName,
+                    proxyURL: settings.proxyURL,
+                    filterable: true,
+                    allPages: true
+                },
+                dataSource: ds,
+                columns: [
+                    {
+                        title: '',
+                        template: function (dataItem) {
+                            var format = '<a href="' + kendo.htmlEncode(settings.url) + '/' + kendo.htmlEncode(dataItem.BillByPeriodID) + '">' + kendo.htmlEncode(dataItem.TenantNum) + '</a>';
+
+                            return format;
+                        }, sortable: false,
+                        groupable: true //MY CODE I JUST CHANGED 1/26/215
+                    },
+                    { field: 'BillYear', title: 'Bill Year', sortable: true , groupabl: true},
+                    { field: 'BillPeriod', title: 'Bill Period', sortable: true, groupabl: true },
+                    { field: 'custName', title: 'Customer', sortable: true },
+                    { field: 'totConsump', title: 'Usage', format: '{0:n0}', sortable: true },
+                    { field: 'totDemand', title: 'Demand', format: '{0:n1}', sortable: true },
+                    { field: 'energyType', title: 'Energy Type', sortable: true },
+                    { field: 'Subtotal', format: '{0:c2}', sortable: true },
+                    { field: 'tax', title: 'Sales Tax', format: '{0:c2}', sortable: true},
+                    { field: 'TotalAmt', title: 'Total Amount', format: '{0:c2}', sortable: true }
+                ],
+                groupable: true,// start1/26/215
+                groupable: { showFooter: true },//end1/26/215
+                sortable: true,
+                resizable: true,
+                height: 543,
+                scrollable: {
+                    virtual: true
+                },
+<<<<<<< local
+                _pageable: true, // TESTING 
+=======
+                pageable: true,
+>>>>>>> other
+            }).data('kendoGrid');
+        };// start1/26/215
+
+                    ns.GRID = grid;//end 1/26/215
+
+        function expandFirstGroup() {
+            grid.tbody.find('>tr.k-grouping-row:first').each(function (e) {
+                grid.expandRow(this);
+            });
+
+            var expandIcon = grid.tbody.find('.k-i-expand:first');
+
+            expandIcon.trigger('click');
+        }
+
+        function collapseRows() {
+            grid.tbody.find('>tr.k-grouping-row').each(function (e) {
+                grid.collapseRow(this);
+            });
+        }
+
+        var init = function (inputs) {
+            settings = $.extend({}, defaults, inputs);
+            createGrid();
+        };
+        
+        return {
+            init: init,
+            exportCsvOnClick: exportCsvOnClick
+        };
+    })();
+
+})(jQuery, window, document);

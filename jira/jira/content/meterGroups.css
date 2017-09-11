@@ -1,0 +1,6 @@
+﻿@media screen and (max-width: 1024px) {
+	th.optional, 
+    td.optional {
+		display: none;
+	}
+}
